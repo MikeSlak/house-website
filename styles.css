@@ -50,6 +50,12 @@ img {
   padding-bottom: 1rem;
 }
 
+#footer-sub {
+  background: rgba(37, 36, 36, 0.3);
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+}
 
 @media screen and (max-width: 768px){
   .main-title {
@@ -58,4 +64,8 @@ img {
   .feature-bg {
     width: 40vh;
   }
+  #footer-sub {
+    padding-top: 31rem;
+  }
+  
 }
