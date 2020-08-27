@@ -38,10 +38,25 @@ img {
   font-weight: bold;
 }
 
-#homes {
+.sub-title {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.sub-pics {
+  /* position: relative;
+  display: flex; */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.homes {
   background: black;
   color: white;
 }
+
+
 
 #footer {
   background: rgba(37, 36, 36, 0.3);
@@ -59,13 +74,22 @@ img {
 
 @media screen and (max-width: 768px){
   .main-title {
-    font-size: 1rem;
+    font-size: 2rem;
   }
   .feature-bg {
     width: 40vh;
   }
-  #footer-sub {
-    padding-top: 31rem;
+
+  .main-pic {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
   }
+
+  /* #footer-sub {
+    padding-top: 31rem;
+  } */
   
 }
