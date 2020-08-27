@@ -44,8 +44,6 @@ img {
 }
 
 .sub-pics {
-  /* position: relative;
-  display: flex; */
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -58,19 +56,19 @@ img {
 
 
 
-#footer {
+.footer {
   background: rgba(37, 36, 36, 0.3);
   text-align: center;
   padding-top: 3rem;
   padding-bottom: 1rem;
 }
 
-#footer-sub {
+/* #footer-sub {
   background: rgba(37, 36, 36, 0.3);
   text-align: center;
   padding-top: 3rem;
   padding-bottom: 1rem;
-}
+} */
 
 @media screen and (max-width: 768px){
   .main-title {
@@ -87,9 +85,4 @@ img {
     align-items: flex-end;
     text-align: center;
   }
-
-  /* #footer-sub {
-    padding-top: 31rem;
-  } */
-  
 }
